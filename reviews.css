@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecf0076e;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #dad1d1;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.game-review {
+    margin-bottom: 30px;
+}
+
+.game-review h2 {
+    margin: 0;
+    padding: 0;
+    color: #444;
+    font-size: 24px;
+}
+
+.stars {
+    margin: 10px 0;
+}
+
+.star {
+    font-size: 24px;
+    color: #FFD700;
+}
+
+.rating-bar {
+    position: relative;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.rating {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+p{
+   position: relative;
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+}
